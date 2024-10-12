@@ -1,0 +1,976 @@
+body {
+    margin: 0;
+}
+
+.header-line {
+    width: 1146px;
+    height: 54px;
+    margin-left: 146px;
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.header {
+    background-image: url('IMAGE.png');
+    height: 955px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+.nav-item:hover {
+    color: #FF4D01;
+}
+.cart-item {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+.cart-item:hover{
+    color: #FF4D01;
+}
+.button {
+    background-color: #FF4D01;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    align-items: center;
+    font-size: 16px;
+    padding: 16px 18px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color: #a03101;
+}
+.header-down {
+    padding-top: 152px;
+    align-items: center;
+    justify-content:center;
+}
+.header-title {
+    padding-top: -1px;
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: -1px;
+}
+.header-desc {
+    display: block;
+    margin-top: 15px;
+
+}
+.header-subtitle {
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.header-buttons {
+    margin-top: 50px;
+    text-align: center;
+    gap: 25px;
+    padding: 0 10px ;
+}
+.header-button1 {
+    background-color: #FF4D01;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color:#fff;
+    align-items: center;
+    font-size: 14px;
+    padding: 18px 20px;
+    margin-right: 20px;
+}
+.header-button2 {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    border-color: #fff;
+    border-style: solid;
+    padding: 17px 20px;
+}
+.About-Us {
+    display: flex;
+    justify-content: center;
+}
+.About-container {
+    display: flex;
+    justify-content: center;
+    width: 1148px;
+    gap: 80px;
+    padding-right: 160px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.About-Us-img {
+    width: 478.63px;
+    height: 681.36px;
+}
+.About-info {
+    margin-top:80px;
+}
+.About-title {
+    color:#FF4D01;
+    width: 105px;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+}
+.About-subtitle {
+
+    margin-top: 20px;
+    color: black;
+    width: 522px;
+    font-family: "Barlow", sans-serif;
+    font-size:  54px;
+
+}
+.About-desc {
+    margin-top: 20px;
+    color:#605E5D;
+    width: 589px;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+.About-number {
+    margin-top: 60px;
+    display: flex;
+    width: 596px;
+    justify-content: center;
+    gap: 35px;
+
+}
+.Number-item {
+
+    margin-right: 40px;
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    font-size: 72px;
+}
+.item-text {
+    color: #605E5D;
+    display: block;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.item-color {
+    color: #FF4D01;
+}
+.About-btn {
+    margin-top: 60px;
+}
+.About-button {
+    color:black;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    border-color: black;
+    border-style: solid;
+    padding: 20px 22px;
+}
+
+.Service-container {
+    width: 1196px;
+    height: 1400px;
+    padding-top: 200px;
+    justify-content: center;
+}
+.service-headerline {
+    height: 160px;
+    width: 1300px;
+    display: flex;
+    margin-right: 60px;
+}
+.service-title {
+    margin: 0 150px;
+    text-align: start;
+}
+.service-page {
+    color:#FF4D01;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+}
+.service-subtitle {
+    font-family: "Barlow", sans-serif;
+    font-size: 54px;
+}
+.service-buttons {
+    margin-left: 240px;
+    margin-top: 60px;
+    
+    
+}
+.service-button1 {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: #FF4D01;
+    font-family: "Barlow", sans-serif;
+    padding: 20px 22px;
+    margin-right: 20px;
+    
+}
+.service-button2{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    border-color: black;
+    font-family: "Barlow", sans-serif;
+    border-style: solid;
+    padding: 18px 20px;
+    
+    
+}
+
+.service-cards {
+    width: 1148px;
+    height: 680.23px;
+    margin:  0 150px;
+    margin-top: 90px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card-item {
+    width: 33%;
+    height: 296px;
+    justify-content: center;
+    
+}
+.card-image {
+    display: flex;
+    justify-content: start;
+}
+.card-title {
+    width: 320px;
+    display: flex;
+    font-size: 34px;
+    font-family: "Barlow", sans-serif;
+    justify-content: start;
+    margin-top: 20px;
+}
+.card-desc {
+    width: 335px;
+    display: flex;
+    justify-content: start;
+    color: #605E5D;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    margin-top: 32px;
+}
+.card-learn {
+    width: 364px;
+    display: flex;
+    text-align: center ;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    margin-top: 40px;
+}
+.Learn-more {
+    background-color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.trigger-container {
+    background-image: url('IMAGEimg.png');
+    height: 545px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trigger-inner-container {
+    padding: 0 150px;
+    padding-top: 150px;
+}
+.trigger-title {
+    font-size: 54px;
+    font-family: "Barlow", sans-serif;
+    margin-top: -2px;
+}
+.trigger-desc{
+    color: #605E5D;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    margin-top: 40px;
+
+}
+.trigger-buttons {
+    margin-top: 60px;
+
+}
+.trigger-button1{
+    text-decoration: none;
+    color:#fff;
+    font-family: "Barlow", sans-serif;
+    background-color: #FF4D01;
+    padding: 18px 22px;
+    margin-right: 25px;
+}
+.trigger-button2 {
+    text-decoration: none;
+    color: #000;
+    font-family: "Barlow", sans-serif;
+    border-color: #000;
+    border-style: solid;
+    padding: 16px 22px;
+
+}
+
+.choose-us-container {
+    height: 1768px;
+
+}
+.group-image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 282px;
+    z-index: 2;
+}
+.choose-us-inner-container {
+    padding-top: 280px;
+    padding-left: 125px;
+    z-index: 1;
+}
+.choose-us-first-page {
+    display: flex;
+    justify-content: start;
+
+}
+.first-text-page {
+    margin-top: 65px;
+    margin-left: 40px;
+
+}
+
+.choose-us-second-page {
+    margin-left: 25px;
+    display: flex;
+    justify-content: start;
+    margin-top: 100px;
+
+}
+
+.second-text-page {
+    margin-top: 47px;
+}
+.choose-us-second-image {
+    margin-left: 67px;
+}
+.Why-choose-us {
+    color: #FF4D01;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+
+
+}
+.choose-us-title {
+    margin-top: 20px;
+    color: #000;
+    font-size: 54px;
+    font-family: "Barlow", sans-serif;
+
+
+}
+.choose-us-desc {
+    margin-top: 18px;
+    color: #605E5D;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+
+}
+.choose-us-items {
+    margin-top: 15px;
+    display: block;
+    justify-content: start;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    align-items: center;
+}
+.choose-us-item {
+    margin-top: 20px;
+    
+}
+.choose-us-num-item {
+    display: flex;
+    justify-content: start;
+}
+.choose-us-num-items {
+    font-size: 54px;
+    margin-top: 20px;
+    font-family: "Barlow", sans-serif;
+    margin-right: 60px;
+    display: block;
+    justify-content: center;
+
+}
+.num-item-container {
+    display: block;
+    text-align: center;
+
+}
+
+.choose-item-text {
+    color: #605E5D;
+    font-size: 18px;
+    display: block;
+    text-align: start;
+}
+.past-projects-container {
+    display: block;
+    height: 1230px;
+}
+
+.past-projects-inner-container {
+    height: 990px;
+}
+.past-projects-header-line {
+    width: 1148px;
+    height: 176px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: end;
+
+}
+.past-projects-header-text-page {
+    width: 611px;
+    height: 124px;
+    margin-right: 240px;
+    font-family: "Barlow", sans-serif;
+    
+}
+.page-name {
+    font-size: 20px;
+    color: #FF4D01;
+    justify-content: start;
+
+}
+.past-project-title {
+    font-size: 34px;
+    
+
+}
+.past-project-buttons {
+    display: flex;
+    height: 60px;
+    
+}
+.past-project-button1 {
+    width: 90px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: #FF4D01;
+    font-family: "Barlow", sans-serif;
+    padding: 20px 28px;
+    margin-right: 20px;
+    
+}
+.past-project-button2 {
+    width: 120px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    border-color: black;
+    font-family: "Barlow", sans-serif;
+    border-style: solid;
+    padding: 18px 20px;
+
+}
+.past-projects-image-cards {
+    width: 1763px;
+    margin-top: 60px;
+    display: flex;
+    margin-left: 150px;
+}
+.past-projects-card1 {
+    width: 545px;
+    height: 611px;
+    background-image: url('IMAGEpast-projects-card1.png');
+}
+.past-projects-card2 {
+    margin-left: 60px;
+    width: 545px;
+    height: 611px;
+    background-image: url('IMAGEpast-projects-card2.png');
+}
+.past-projects-card3 {
+    margin-left: 60px;
+    width: 545px;
+    height: 611px;
+    background-image: url('IMAGEpast-project-card3.png');
+}
+.past-project-card-inner {
+    width: 485px;
+    margin-top: 300px;
+    display: block;
+    text-align: start;
+}
+hr{
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 485px;
+    color: #8b8b8e;
+}
+.past-projects-card-title {
+    margin-left: 30px;
+    font-size: 34px;
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    justify-content: start;
+    display: flex;
+
+}
+.past-projects-card-desc {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+
+
+}
+.past-project-card-type {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.construction {
+    margin-left: 40px;
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+
+}
+.remodeling {
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    margin-left: 20px;
+    align-items: center;
+}
+.remodeling-trinagle {
+    margin-top: 5px;
+}
+.past-projects-rectangles {
+    padding-top: 40px;
+    width: 1148px;
+    display: flex;
+    justify-content: center;
+}
+.border-rectangle {
+    height: 68px;
+    width: 68px;
+    border-style: solid;
+    border-color: #000;
+    margin-left: 300px;
+    margin-right: 35px;
+}
+.common-rectangle {
+    height: 72px;
+    width: 72px;
+    background-color: #FF4D01;
+
+}
+.testimonials-container {
+    margin-left: 150px;
+    display: block;
+}
+.testimonials-header-line {
+    display: flex;
+}
+.header-border-rectangle {
+    height: 68px;
+    width: 68px;
+    border-style: solid;
+    border-color: #000;
+    margin-right: 25px;
+}
+.testimonials-header-text-part {
+    width: 544px;
+    margin-top: 0px;
+    display: block;
+    justify-content: start;
+}
+.testimonials-page-name {
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    color: #FF4D01;
+}
+.testimonials-header-title {
+    font-size: 54px;
+    font-family: "Barlow", sans-serif;
+}
+.testimonials-header-rectangles {
+    display: flex;
+    margin-left: 434px;
+    justify-content: end;
+}
+.testimonials-card-info {
+    display: flex;
+    margin-top: 64px;
+}
+.testimonials-man-card {
+    display: flex;
+    height: 405px;
+    margin-right: 60px ;
+}
+.testimonials-card-text-part {
+    margin-top: 35px;
+    margin-left: 38px;
+}
+.card-text-title {
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+
+}
+.card-text-desc {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    color: #605E5D;
+}
+.card-text-author {
+    width: 362px;
+    margin-top: 34px;
+    font-family: "Barlow", sans-serif;
+    display: flex;
+
+}
+.card-text-address {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+
+}
+.address {
+    font-size: 14px;
+    font-family: "Barlow", sans-serif;
+    color: #605E5D;
+    display: block;
+}
+.card-rectangle {
+    margin-left: 220px;
+    background-color: #FF4D01;
+    width: 32px;
+    height: 32px;
+}
+.testimonials-woman-card {
+    display: flex;
+}
+
+.blog-container {
+    margin-top: 180px;
+
+}
+.blog-header-line {
+    display: flex;
+    margin-left: 150px;
+    width: 1148px;
+}
+.blog-header-text-part {
+    width: 560px;
+    display: block;
+    justify-content: start;
+    height: 99px;
+}
+.header-button {
+    margin-left: 400px;
+    height: 75px;
+}
+.blog-header-button {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    border-color: #000;
+    border-style: solid;
+    padding: 20px 30px;
+}
+
+.blog-page-name {
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    color: #FF4D01;
+}
+.blog-header-line-title {
+    font-size: 54px;
+    font-family: "Barlow", sans-serif;
+}
+.blog-news-page {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.main-news-page {
+    display: block;
+    width: 562px;
+    height: 718px;
+}
+.main-image {
+width: 562px;
+height: 562px;
+}
+.main-title {
+    margin-top: 28px;
+    font-size: 34px;
+    font-family: "Barlow", sans-serif;
+
+}
+.main-time {
+    margin-top: 8px;
+    margin-left: 20px;
+    font-family: "Barlow", sans-serif;
+    color: #605E5D;
+
+}
+
+.other-news-pages {
+    margin-left: 30px;
+    width: 562px;
+    display: block;
+}
+.other-news-page1{
+    width: 562px;
+    height: 224px;
+    display: flex;
+}
+.other-news-page {
+    margin-top: 20px;
+    width: 562px;
+    height: 224px;
+    display: flex;
+}
+.other-news-image {
+    width: 224px;
+    height: 224px;
+}
+.news-text-page{
+    display: block;
+    margin-left: 30px;
+}
+.other-news-title {
+    margin-top: 15px;
+    font-size: 28px;
+    font-family: "Barlow", sans-serif;
+
+}
+.other-news-time {
+    margin-top: 19px;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    color: #605E5D;
+}
+
+.last-page-container {
+    margin-top: 100px;
+    background-color: #000;
+    height: 651px;
+    width: 100%;
+    display: block;
+    
+}
+.last-inner-container {
+    padding-top: 120px;
+    margin-left: 150px;
+    width: 1148px;
+    height: 305px;
+    display: flex;
+}
+.unknown-container{
+    margin-top: 13px;
+    display: block;
+    justify-content: start;
+}
+.unknown-text {
+    margin-top: 63px;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.unknown-rectangles {
+    display: flex;
+    width: 203px;
+    margin-top: 35px;
+}
+.unknown-rectangle1 {
+    width: 36px;
+    height: 36px;
+    background-color: #FF4D01;
+    margin-right: 16px;
+}
+.unknown-rectangle {
+    width: 36px;
+    height: 36px;
+    background-color: #FF4D01;
+    margin-right: 16px;
+}
+
+.menu-container {
+    margin-top: 26px;
+    margin-left: 60px;
+    width: 274px;
+    height: 305px;
+    display: block;
+    justify-content: start;
+}
+.menu-page-name {
+    font-family: "Barlow", sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+.menu-types {
+    display: flex;
+}
+.menu-main-types {
+    margin-top: 40px;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    color: #fff;
+
+}
+.menu-main-type {
+    margin-top: 17px;
+}
+.menu-other-types {
+    margin-left: 28px;
+    margin-top: 40px;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    color: #fff;
+
+}
+.menu-other-type {
+    margin-top: 17px;
+
+}
+.utility-container {
+    width: 201px;
+    height: 305px;
+    margin-top: 31px;
+    margin-left: 61px;
+    display: block;
+}
+.utility-page-name {
+    font-family: "Barlow", sans-serif;
+    font-size:22px;
+    color: #fff;
+}
+.utility-menu-types {
+    margin-top: 40px;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.utility-menu-type {
+    margin-top: 17px;
+}
+.contact-us-container {
+    margin-top: 31px;
+    width: 290px;
+    height: 305px;
+    margin-left: 60px;
+}
+.contact-us-page-name {
+    color: #fff;
+    font-size: 22px;
+    font-family: "Barlow", sans-serif;
+}
+.contact-us-borders {
+    margin-top: 40px;
+}
+.call-us {
+    display: flex;
+    border-color: #FF4D01;
+    border-style: solid;
+    height: 103px;
+    width: 284px;
+}
+.call {
+    background-image: url('IMAGEcall.png');
+    width: 48px;
+    height: 48px;
+    margin-right: 3px;
+    margin-left: 27px;
+    margin-top: 30px;
+}
+.call-us-text-part {
+    margin-left: 5px;
+    margin-top: 32.33px;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 171px;
+    height: 42px;
+}
+.email-us {
+    margin-top: 18px;
+    display: flex;
+    border-color: #FF4D01;
+    border-style: solid;
+    height: 103px;
+    width: 284px;
+}
+.email {
+    background-image: url('IMAGEemail.png');
+    width: 48px;
+    height: 48px;
+    margin-right: 3px;
+    margin-left: 27px;
+    margin-top: 30px;
+}
+.email-us-text-part {
+    margin-left: 5px;
+    margin-top: 32.33px;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 171px;
+    height: 42px;
+}
+.info-container {
+    margin-top: 160px;
+    margin-left: 150px;
+    width: 1148px;
+    height: 30px;
+    display: flex;
+}
+.copyright {
+    width: 206px;
+    height: 30px;
+    color: #605E5D;
+    font-family: "Barlow", sans-serif; 
+    font-size: 18px;
+    
+}
+.designed {
+    width: 407px;
+    height: 30px;
+    color: #fff;
+    font-family: "Barlow", sans-serif; 
+    font-size: 18px;
+    margin-left: 558px;
+}

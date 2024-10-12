@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <title>Registration Form</title>
+    <style>
+      table {
+        border-spacing: 5px;
+        width: 500px;
+      }
+      th {
+        text-align: center;
+        color: red;
+        font-weight: 800;
+        font-size: 26px;
+        padding: 5px;
+        background-color: rgba(255, 255, 0, 0.627);
+      }
+
+      .label,
+      td {
+        padding: 7px;
+        background-color: rgb(93, 178, 235);
+      }
+
+      .button-container {
+        text-align: center;
+      }
+
+      .button-container input {
+        padding: 12px 30px;
+      }
+    </style>
+    <script>
+      function lol() {
+        const duration = 15 * 1000,
+          animationEnd = Date.now() + duration,
+          defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+        function randomInRange(min, max) {
+          return Math.random() * (max - min) + min;
+        }
+
+        const interval = setInterval(function () {
+          const timeLeft = animationEnd - Date.now();
+
+          if (timeLeft <= 0) {
+            return clearInterval(interval);
+          }
+
+          const particleCount = 50 * (timeLeft / duration);
+
+          confetti(
+            Object.assign({}, defaults, {
+              particleCount,
+              origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 },
+            })
+          );
+          confetti(
+            Object.assign({}, defaults, {
+              particleCount,
+              origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
+            })
+          );
+        }, 250);
+      }
+
+      function zxc() {
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
+      }
+
+      function abc() {
+        const defaults = {
+          spread: 360,
+          ticks: 50,
+          gravity: 0,
+          decay: 0.94,
+          startVelocity: 30,
+          shapes: ["star"],
+          colors: ["FFE400", "FFBD00", "E89400", "FFCA6C", "FDFFB8"],
+        };
+
+        function shoot() {
+          confetti({
+            ...defaults,
+            particleCount: 40,
+            scalar: 1.2,
+            shapes: ["star"],
+          });
+
+          confetti({
+            ...defaults,
+            particleCount: 10,
+            scalar: 0.75,
+            shapes: ["circle"],
+          });
+        }setTimeout(shoot, 0);
+        setTimeout(shoot, 100);
+        setTimeout(shoot, 200);
+      }
+    </script>
+  </head>
+  <body>
+    <form action="submit">
+      <table border="3" align="center">
+        <tr>
+          <th colspan="2" class="header">Registration Form</th>
+        </tr>
+        <tr>
+          <td class="label">Enter Name</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td class="label">Enter Password</td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+        <tr>
+          <td class="label">Enter Address</td>
+          <td><textarea name="address"></textarea></td>
+        </tr>
+        <tr>
+          <td class="label">Select Game</td>
+          <td>
+            <input type="checkbox" name="game" value="hockey" /> Hockey<br />
+            <input type="checkbox" name="game" value="football" />
+            Football<br />
+            <input
+              type="checkbox"
+              name="game"
+              value="badminton"
+            />Badminton<br />
+            <input type="checkbox" name="game" value="cricket" id="cricket"/> 
+             <label for="cricket">cricket</label>
+            <input type="checkbox" name="game" value="volleybal" />Volleyball
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Gender</td>
+          <td>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Select your age</td>
+          <td>
+            <select name="age">
+              <option value="">Select</option>
+              <option value="under18">Under 18</option>
+              <option value="18to25">18-30</option>
+              <option value="25to35">31-50</option>
+              <option value="above35">Above 50</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Select Photo</td>
+          <td><input type="file" name="photo" /></td>
+        </tr>
+        <tr class="button-container">
+          <td colspan="2">
+            <input type="button" value="Click Me" onclick="lol()" />
+            <input type="reset" value="Сбросить" onclick="zxc()" />
+            <input type="submit" value="Submit Form" onclick="abc()" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
